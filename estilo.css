@@ -6,7 +6,7 @@
 
 body {
     margin: 0;
-    background-color: #133ee8;
+    background-color: #000000;
     font-family: Tahoma;
 }
 @media (max-width: 600px){
@@ -231,4 +231,3 @@ transition: transform 0.5s ease-in;
     font-size: 1.2rem;
     
 }
-
