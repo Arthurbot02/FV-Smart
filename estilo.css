@@ -7,7 +7,8 @@
 body {
     margin: 0;
     background-color: #000000;
-    font-family: Montserrat;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+
 }
 @media (max-width: 600px){
     .body{
@@ -22,7 +23,9 @@ div{
     text-align: center;
     /* border: solid; */
     color: #fff;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
+
 @media (max-width: 600px){
     div{
       max-width: 300px;
@@ -35,9 +38,12 @@ div{
 }
 
 a{
-    padding: 3px;
+    padding: 1px;
     color: rgb(255, 255, 255);
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+
 }
 h1{
     padding-top: 30px;
@@ -45,14 +51,17 @@ h1{
     margin-bottom: 0;
     font-size: 28px;
     border-top: 1px solid #fff;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-#sobre h2{
+
+#sobre h1{
     font-size: 24px;
     font-weight: normal;
-font-family: Montserrat;
     margin: 10px 10px 15px 10px;
     color: rgb(255, 255, 255);
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+
 }
 
 #sobre img{
@@ -61,20 +70,25 @@ font-family: Montserrat;
 
 #sobre h2{
     color: #ffffff;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 #serviço{
     background-color: #020046;
     color: #fff;
     padding: 20px 0px 10px 0px;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 #serviço img{
-    width: 200px;
-}
+    width: 600px;}
+    #serviço img{
+        width: 200px;
+     }
+
 
 #serviço p{
-   
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     line-height: 28px;
 }
 
@@ -89,8 +103,10 @@ h3{
 span{
     font-weight: bold;
 }
-.contato{
+
+#contato{
     background-color: #020046;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 .logo{
    
@@ -110,6 +126,7 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
     
 }
@@ -119,7 +136,8 @@ span{
     padding-bottom: 1rem;
     border-bottom: 2px solid rgb(255, 255, 255);
     cursor: pointer;
-    align-items: center; }
+    align-items: center; 
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
     @media (max-width: 600px){
         .faq{
           max-width: 200px;
@@ -130,7 +148,8 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #f8f8f8;}
+    color: #f8f8f8;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
     @media (max-width: 600px){
         .question{
           max-width: 200px;
@@ -139,6 +158,7 @@ span{
 
 .question h3{
     font-size: 2.0rem;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;     
 }
 .answer {
 max-height: 0;
@@ -210,7 +230,7 @@ transition: transform 0.5s ease-in;
  }
  
  .acd img{
-    height: 400px;
+    height: 500px;
     width: 600px;
     border-radius: 50px;
     justify-content: space-between;
