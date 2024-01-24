@@ -134,7 +134,7 @@ span{
     @media (min-width: 801px){
         #contato{
           width: 80%;
-         font-size: 30px;
+          font-size: 30px;
         }
 }
 .logo{
@@ -299,7 +299,7 @@ transition: transform 0.5s ease-in;
     text-decoration: none;
     z-index: 100;
     box-shadow: 2px 2px 2px #01e675;} 
-    @media (min-width: 700px){
+    @media (min-width: 800px){
         .icon{
           width: 80px;
           height: 90px;
@@ -308,7 +308,7 @@ transition: transform 0.5s ease-in;
   
   .icon .fab{
     padding-top: 9px;}
-    @media (min-width: 700px){
+    @media (min-width: 800px){
         .icon .fab{
           padding-top: 28px;
         }
