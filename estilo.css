@@ -7,20 +7,14 @@
 body {
     margin: 0;
     background-color: #000000;
-    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
-    @media (max-width: 800px){
-        body{
-          max-width: 300px;
-        }
+}
+@media (max-width: 800px){
+    .body{
+      max-width: 300px;
     }
-        @media (max-width: 850px){
-            body{
-              max-width: 1000px;
-            }
-    }
-    
-
+}
 
 
 div{
@@ -37,11 +31,6 @@ div{
       max-width: 300px;
     }
 }
-    @media (max-width: 850px){
-        div{
-          max-width: 800px;
-        }
-}
 
 .header img{
     width: 300px;
@@ -53,17 +42,9 @@ a{
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
     font-size: 18px;
-    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
-   
-        @media (min-width: 850px){
-            a{
-              font-size: 25px;
-            }
-    }
-    
-
-
+}
 h1{
     padding-top: 30px;
     margin-top: 30px;
@@ -95,21 +76,15 @@ h1{
 #serviço{
     background-color: #020046;
     color: #fff;
-    font-size: 20px;
     padding: 20px 0px 10px 0px;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
+#serviço img{
+    width: 600px;}
     #serviço img{
         width: 200px;
-        height: 200px;}
-        @media (min-width: 850px){
-            #serviço img{
-             width: 600px;
-             height: 800px;
-            }
-    }
-     
+     }
 
 
 #serviço p{
@@ -297,22 +272,10 @@ transition: transform 0.5s ease-in;
     z-index: 100;
     box-shadow: 2px 2px 2px #01e675;
   }
-  @media (min-width: 850px){
-    .icon{
-      width: 70px;
-      height: 80px;
-    }
-}
   
   .icon .fab{
-    padding-top: 9px;}
-    .icon .fab{
-        width: 40px;
-        padding-top: 25px;
-      }
-  
-
-  
+    padding-top: 9px;
+  }
   
   .icon:hover{
     background-color: #01e675;
