@@ -179,7 +179,7 @@ span{
     align-items: center;
     color: #f8f8f8;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
-    @media (min-width: 800px){
+    @media (min-width: 700px){
         .question{
           max-width: 200px;
         }
