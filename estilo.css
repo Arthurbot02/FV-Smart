@@ -134,6 +134,7 @@ span{
     @media (min-width: 801px){
         #contato{
           width: 80%;
+         font-size: 30px;
         }
 }
 .logo{
@@ -178,7 +179,7 @@ span{
     align-items: center;
     color: #f8f8f8;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
-    @media (max-width: 800px){
+    @media (min-width: 800px){
         .question{
           max-width: 200px;
         }
