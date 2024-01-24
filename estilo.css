@@ -253,3 +253,317 @@ transition: transform 0.5s ease-in;
     font-size: 1.2rem;
     
 }
+
+
+
+.icon {
+    position: fixed;
+    bottom: 60px;
+    right: 9px;
+    font-size: 30px;
+    background-color: #01e675;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #01e675;
+  }
+  
+  .icon .fab{
+    padding-top: 9px;
+  }
+  
+  .icon:hover{
+    background-color: #01e675;
+    color: #029e3b;
+    font-weight: 900;
+    box-shadow: 2px 2px 20px #5fe690;
+  }* {
+    padding: 0;
+    margin: 0;
+   
+ }
+
+body {
+    margin: 0;
+    background-color: #000000;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+
+}
+@media (max-width: 600px){
+    .body{
+      max-width: 300px;
+    }
+}
+
+
+div{
+    
+    margin: 20px auto;
+    text-align: center;
+    /* border: solid; */
+    color: #fff;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 600px){
+    div{
+      max-width: 300px;
+    }
+}
+
+.header img{
+    width: 300px;
+    
+}
+
+a{
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+
+}
+h1{
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 28px;
+    border-top: 1px solid #fff;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+#sobre h1{
+    font-size: 24px;
+    font-weight: normal;
+    margin: 10px 10px 15px 10px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+
+}
+
+#sobre img{
+    width: inherit;
+}
+
+#sobre h2{
+    color: #ffffff;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#serviço{
+    background-color: #020046;
+    color: #fff;
+    padding: 20px 0px 10px 0px;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#serviço img{
+    width: 600px;}
+    #serviço img{
+        width: 200px;
+     }
+
+
+#serviço p{
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 28px;
+    font-size: 20px;
+}
+
+img{
+    border-radius: 2px;
+}
+
+h3{
+    margin-bottom: 5px;
+}
+
+span{
+    font-weight: bold;
+}
+
+#contato{
+    background-color: #020046;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.logo{
+   
+    height: 250px;
+    width: 400px;
+    ;}
+    @media (max-width: 600px){
+      .logo{
+        height: 250px;
+        width: 600px;
+      }
+ }
+ .title {
+    font-size: 3rem;
+    margin: 8rem 10rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+
+    
+}
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+    align-items: center; 
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
+    @media (max-width: 600px){
+        .faq{
+          max-width: 200px;
+        }
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f8f8f8;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
+    @media (max-width: 600px){
+        .question{
+          max-width: 200px;
+        }
+}
+
+.question h3{
+    font-size: 2.0rem;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;     
+}
+.answer {
+max-height: 0;
+overflow: hidden;
+transform: max-height 1.4s ease;
+color: #f8f8f8;
+align-items: center;}
+@media (max-width: 600px){
+    .answer{
+      max-width: 300px;
+      align-items: center;
+    }
+
+}
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+    align-items: center;
+    left: -5%;
+
+}
+
+.faq.active .answer
+{
+    max-height: 1000px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active svg
+{
+    transform: rotate(180deg);
+}
+svg
+{
+transition: transform 0.5s ease-in;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.acd{
+    max-width: 540px;
+    height: max-content;
+    display: table-cell;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px auto;
+    border-radius: 10px;
+    display: inline;
+    
+ }
+ 
+ .acd img{
+    height: 500px;
+    width: 600px;
+    border-radius: 50px;
+    justify-content: space-between;
+ }
+    @media (max-width: 600px){
+       .acd img{
+          height: 400px;
+    border-radius: 80px;
+    width: 500px;
+       }
+ }
+ .treinador_info_midia{
+    width: 50%;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    
+}
+
+
+
+.icon {
+    position: fixed;
+    bottom: 60px;
+    right: 9px;
+    font-size: 30px;
+    background-color: #01e675;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #01e675;
+  }
+  
+  .icon .fab{
+    padding-top: 9px;
+  }
+  
+  .icon:hover{
+    background-color: #01e675;
+    color: #029e3b;
+    font-weight: 900;
+    box-shadow: 2px 2px 20px #5fe690;
+  }
