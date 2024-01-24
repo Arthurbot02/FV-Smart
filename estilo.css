@@ -14,6 +14,7 @@ body {
     .body{
       max-width: 300px;
     }
+
 }
 
 
@@ -30,8 +31,12 @@ div{
     div{
       max-width: 300px;
     }
+    @media (min-width: 801px){
+        div{
+          max-width: 500px;
+        }
 }
-
+}
 .header img{
     width: 300px;
     
@@ -42,9 +47,15 @@ a{
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
     font-size: 18px;
-    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
 
+    @media (min-width: 801px){
+        a{
+          font-size: 30px;
+        }
 }
+
+
 h1{
     padding-top: 30px;
     margin-top: 30px;
@@ -77,20 +88,31 @@ h1{
     background-color: #020046;
     color: #fff;
     padding: 20px 0px 10px 0px;
-    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
+    
+    @media (min-width: 801px){
+        #serviço{
+          width: 80%;
+        }
 }
 
-#serviço img{
-    width: 600px;}
     #serviço img{
         width: 200px;
      }
-
+     @media (min-width: 801px){
+        #serviço img{
+          width: 400px;
+        }
+    }
 
 #serviço p{
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     line-height: 28px;
-    font-size: 20px;
+    font-size: 20px;}
+    @media (min-width: 801px){
+        #serviço{
+         font-size: 25px;
+        }
 }
 
 img{
@@ -108,7 +130,11 @@ span{
 #contato{
     background-color: #020046;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 20px;}
+    @media (min-width: 801px){
+        #contato{
+          width: 80%;
+        }
 }
 .logo{
    
@@ -140,7 +166,7 @@ span{
     cursor: pointer;
     align-items: center; 
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
-    @media (max-width: 800px){
+    @media (max-width: 00px){
         .faq{
           max-width: 200px;
         }
@@ -168,7 +194,7 @@ overflow: hidden;
 transform: max-height 1.4s ease;
 color: #f8f8f8;
 align-items: center;}
-@media (max-width: 00px){
+@media (max-width: 600px){
     .answer{
       max-width: 300px;
       align-items: center;
@@ -253,6 +279,7 @@ transition: transform 0.5s ease-in;
     font-size: 1.2rem;
     
 }
+
 
 
 
