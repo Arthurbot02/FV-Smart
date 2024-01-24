@@ -41,7 +41,7 @@ a{
     padding: 1px;
     color: rgb(255, 255, 255);
     margin-bottom: 20px;
-    font-size: 17px;
+    font-size: 18px;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
 }
@@ -90,6 +90,7 @@ h1{
 #serviço p{
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     line-height: 28px;
+    font-size: 20px;
 }
 
 img{
@@ -107,6 +108,7 @@ span{
 #contato{
     background-color: #020046;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 20px;
 }
 .logo{
    
