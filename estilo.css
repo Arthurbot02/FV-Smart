@@ -10,11 +10,8 @@ body {
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
 }
-@media (max-width: 800px){
-    .body{
-      max-width: 300px;
-    }
-}
+
+
 
 
 div{
