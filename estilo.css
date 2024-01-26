@@ -137,6 +137,10 @@ span{
           font-size: 30px;
         }
 }
+#contato iframe{
+    width: 70%;
+    
+}
 .logo{
    
     height: 250px;
@@ -167,7 +171,7 @@ span{
     cursor: pointer;
     align-items: center; 
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
-    @media (max-width: 00px){
+    @media (max-width: 700px){
         .faq{
           max-width: 200px;
         }
@@ -179,7 +183,7 @@ span{
     align-items: center;
     color: #f8f8f8;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
-    @media (min-width: 700px){
+    @media (min-width: 800px){
         .question{
           max-width: 200px;
         }
@@ -195,7 +199,7 @@ overflow: hidden;
 transform: max-height 1.4s ease;
 color: #f8f8f8;
 align-items: center;}
-@media (min-width: 600px){
+@media (min-width: 800px){
     .answer{
       max-width: 300px;
       align-items: center;
@@ -310,7 +314,9 @@ transition: transform 0.5s ease-in;
     padding-top: 9px;}
     @media (min-width: 800px){
         .icon .fab{
-          padding-top: 28px;
+          padding-top: 9px;
+          font-size: 70px;
+          width: -50px;
         }
   }
   
@@ -320,3 +326,4 @@ transition: transform 0.5s ease-in;
     font-weight: 900;
     box-shadow: 2px 2px 20px #5fe690;
   }
+  
