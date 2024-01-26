@@ -62,7 +62,12 @@ h1{
     margin-bottom: 0;
     font-size: 28px;
     border-top: 1px solid #fff;
-    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;}
+    
+    @media (min-width: 801px){
+        h1{
+          font-size: 100px;
+        }
 }
 
 
