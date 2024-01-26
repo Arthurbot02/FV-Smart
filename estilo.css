@@ -305,8 +305,8 @@ transition: transform 0.5s ease-in;
     box-shadow: 2px 2px 2px #01e675;} 
     @media (min-width: 800px){
         .icon{
-          width: 80px;
-          height: 90px;
+          width: 90px;
+          height: 95px;
         }
   }
   
